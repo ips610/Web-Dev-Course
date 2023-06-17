@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+.box1{
+    background-color: pink;
+    position:static
+}
+.box2{
+    background-color: lightcoral;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
+}
+.box3{
+    background-color: lightblue;
+    position: absolute;
+    top: 20px;
+    left:10px;
+    
+}
+.box4{
+    background-color: greenyellow;
+    position: fixed;
+    
+    bottom: 0;
+    width: 100vw;
+    
+}
+.box5{
+    background-color: goldenrod;
+    position: sticky;
+}
