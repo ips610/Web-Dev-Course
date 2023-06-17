@@ -1,3 +1,25 @@
-div{
+#check{
     background-color: pink;
+    display: inline;
+}
+button{
+    display: block;
+}
+div{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+.b1{
+    background-color: lightblue;
+}
+.b2{
+    background-color: pink;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.b3{
+    background-color: lightgoldenrodyellow;
 }
