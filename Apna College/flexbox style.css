@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+}
+div {
+  height: 50px;
+  width: 150px;
+  display: inline-block;
+  border: solid 2px black;
+}
+.container1{
+    width:800px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box1{
+    background-color: aquamarine;
+}
+.box2{
+    background-color: pink;
+}
+.box3{
+    background-color: yellowgreen;
+}
+.box4{
+    background-color: indianred;
+}
+.box5{
+    background-color: slateblue;
+}
+.container2{
+    width:600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
