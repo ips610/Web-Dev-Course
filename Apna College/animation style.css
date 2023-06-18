@@ -7,3 +7,7 @@ div:hover{
     background-color: darkslateblue;
     color: white;
 }
+div:active{
+    background-color: pink;
+    color: black;
+}
