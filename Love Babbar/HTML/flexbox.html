@@ -144,12 +144,14 @@
             display: flex;
             flex-direction: row;
             height: 700px;
-            justify-content: center;
-            align-items: stretch;
+            justify-content: start;
+            align-items: flex-start;
+            align-content: start;
+            /* flex-wrap: wrap; */
         }
 
         .box {
-            /* height: 200px; */
+            height: 200px;
             width: 200px;
             border: 2px solid black;
             padding: 5px;
@@ -158,18 +160,24 @@
 
         #box1 {
             background-color: cyan;
+            /* order: 1; */
         }
 
         #box2 {
             background-color: blue;
+            /* order: 2; */
         }
 
         #box3 {
             background-color: palevioletred;
+            /* order: -1; */
+            align-self: center;
         }
 
         #box4 {
             background-color: lightseagreen;
+            flex-grow: 2;
+            flex-shrink: 4;
         }
 
     </style>
