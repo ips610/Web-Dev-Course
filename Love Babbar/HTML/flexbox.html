@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <style>
         .container1 {
             background-color: burlywood;
@@ -42,7 +43,17 @@
             flex-direction: column-reverse;
         }
 
-        .bigcontainer {
+        .bigcontainer1 {
+            background-color: greenyellow;
+            border: 5px solid black;
+            padding: 5px;
+            margin: 5px;
+            display: flex;
+            flex-direction: row;
+            overflow: scroll;
+        }
+
+        .bigcontainer2 {
             background-color: lightcoral;
             border: 5px solid black;
             padding: 5px;
@@ -50,6 +61,7 @@
             display: flex;
             flex-direction: row;
         }
+
         .box {
             height: 200px;
             width: 200px;
@@ -125,30 +137,32 @@
 </head>
 
 <body>
-    <div class="container1">
-        <div class="box" id="box1"></div>
-        <div class="box" id="box2"></div>
-        <div class="box" id="box3"></div>
-        <div class="box" id="box4"></div>
-    </div>
-    <div class="container2">
-        <div class="box" id="box5"></div>
-        <div class="box" id="box6"></div>
-        <div class="box" id="box7"></div>
-        <div class="box" id="box8"></div>
-    </div>
-    <div class="bigcontainer">
-        <div class="container3">
-            <div class="box" id="box9"></div>
-            <div class="box" id="box10"></div>
-            <div class="box" id="box11"></div>
-            <div class="box" id="box12"></div>
+    <div class="bigcontainer1">
+        <div class="container1">
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+            <div class="box" id="box4"></div>
         </div>
-        <div class="container4">
-            <div class="box" id="box13"></div>
-            <div class="box" id="box14"></div>
-            <div class="box" id="box15"></div>
-            <div class="box" id="box16"></div>
+        <div class="container2">
+            <div class="box" id="box5"></div>
+            <div class="box" id="box6"></div>
+            <div class="box" id="box7"></div>
+            <div class="box" id="box8"></div>
+        </div>
+        <div class="bigcontainer2">
+            <div class="container3">
+                <div class="box" id="box9"></div>
+                <div class="box" id="box10"></div>
+                <div class="box" id="box11"></div>
+                <div class="box" id="box12"></div>
+            </div>
+            <div class="container4">
+                <div class="box" id="box13"></div>
+                <div class="box" id="box14"></div>
+                <div class="box" id="box15"></div>
+                <div class="box" id="box16"></div>
+            </div>
         </div>
     </div>
 </body>
