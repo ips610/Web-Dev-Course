@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: crimson;
+            width: 100vw;
+            height: 100vh;
+            border: 5px solid black;
+        }
+
+        .box {
+            position: relative;
+            height: 100px;
+            width: 300px;
+            background-color: yellow;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 50px;
+            animation-name: moveright;
+            animation-iteration-count: infinite;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+            animation-direction: alternate;
+        }
+
+        @keyframes moveright {
+            from {
+                top: 0;
+                left: 0;
+            }
+
+            to {
+                top: 100px;
+                /* right: 0; */
+                /* left: 1313px; */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+
+</html>
