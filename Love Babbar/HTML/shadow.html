@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        :root{
+            --global-color: pink;
+        }
+        .container{
+            background-color: var(--global-color);
+            height: 600px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            --primary-color: red;
+            --custom-width: 330px;
+            height: 300px;
+            width:var(--custom-width);
+            background-color: var(--primary-color);
+            color: aliceblue;
+            box-shadow: 10px 30px 10px 50px blue, inset -20px -10px 15px 30px lightseagreen;
+            text-shadow: 5px 3px 1px green;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="box">I am a box</div>
+    </div>
 </body>
 </html>
